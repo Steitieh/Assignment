@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class WelcomeMessage {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your name please :) : ");
+        System.out.print("Enter your name please:");
         String name = scanner.nextLine();
         System.out.print("Enter your age please: ");
         String age = scanner.nextLine();
