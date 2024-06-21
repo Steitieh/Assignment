@@ -8,7 +8,7 @@ public class WelcomeMessage {
         System.out.print("Enter your age please: ");
         String age = scanner.nextLine();
         System.out.println("Welcome, " + name + "! \n Hope you have a great day!!");
-        System.out.println("You are " + age " years old!!");
+        System.out.println("You are " + age + "years old!");
         scanner.close();
     }
 }
